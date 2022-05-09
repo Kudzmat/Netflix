@@ -1,0 +1,177 @@
+.logo {
+  color: red;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+
+
+#page {
+  background-color: #141414;
+}
+
+header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+#main-nav {
+  text-align: right;
+  margin-right: 50px;
+  
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+
+ul li a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 15px;
+  font-family: sans-serif;
+}
+
+
+@media screen and (min-width: 600px){
+  .container img {
+  width: 100%;
+  height: auto;
+}
+  
+}
+
+
+.testing {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  
+}
+
+.container-text {
+  position: absolute;
+  bottom: 200px;
+  left: 16px;
+  font-size: 10px;
+  font-family: monospace;
+  
+}
+
+.container-text h4 {
+  color: white;
+  position: absolute;
+  bottom: 150px;
+  left: 16px;
+  font-size: 40px;
+  font-family: monospace;
+  
+}
+
+.button {
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+.popular {
+  display: block;
+  max-width: 100%;
+}
+
+.originals {
+  display: block;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.column-box {
+  width: 20%;
+  float: left;
+  height: auto;
+}
+
+.column-org {
+  float: left;
+  width: 20%;
+  height: auto;
+}
+
+
+footer {
+  display: block;
+}
+
+.row-org {
+  width: 100%;
+}
+
+
+.grow {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.grow:hover {
+  transform: scale(1.5); 
+}
+
+.grow-org {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  
+}
+
+.grow-org:hover {
+  transform: scale(1.2);
+  
+}
+
+.foot {
+  background-color: #141414;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-top: 200px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
